@@ -1,0 +1,29 @@
+QCheckBox{
+        spacing: 15px;
+}
+QCheckBox::indicator {
+        width: 17px;
+        height: 107px;
+}
+
+QCheckBox::indicator:disabled:unchecked {
+        image: url(:/Images/while_round_thin.png);
+}
+QCheckBox::indicator:disabled:checked {
+        image: url(:/Images/red_round.png);
+}
+
+QCheckBox::indicator:enabled:unchecked {
+        image: url(:/Images/while_round.png);
+}
+QCheckBox::indicator:enabled:checked {
+        image: url(:/Images/green_round.png);
+}
+#注意：不可将注释夹入样式表语句中，否则设置失效。
+    #指示器与名字之间的间隔值设置
+    #控件总宽度
+    #控件总高度
+    #用户只读时，未选中状态指示器加载图片设置
+    #用户只读时，选中状态指示器加载图片设置
+    #用户可选时，未选中状态指示器加载图片设置
+    #用户可选时，选中状态指示器加载图片设置
