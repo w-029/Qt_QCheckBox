@@ -1,11 +1,11 @@
 <RCC>
     <qresource prefix="/Images">
-        <file>while_round.png</file>
-        <file>red_round.png</file>
-        <file>while_round_thin.png</file>
-        <file>green_round.png</file>
+        <file>res/green_round.png</file>
+        <file>res/red_round.png</file>
+        <file>res/while_round.png</file>
+        <file>res/while_round_thin.png</file>
     </qresource>
     <qresource prefix="/Qss">
-        <file>checkbox.qss</file>
+        <file>res/checkbox.qss</file>
     </qresource>
 </RCC>

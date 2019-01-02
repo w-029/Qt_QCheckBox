@@ -3,21 +3,21 @@ QCheckBox{
 }
 QCheckBox::indicator {
         width: 17px;
-        height: 107px;
+        height: 17px;
 }
 
-QCheckBox::indicator:disabled:unchecked {
-        image: url(:/Images/while_round_thin.png);
+QCheckBox::indicator:unenabled:unchecked {
+        image: url(:/Images/res/while_round_thin.png);
 }
-QCheckBox::indicator:disabled:checked {
-        image: url(:/Images/red_round.png);
+QCheckBox::indicator:unenabled:checked {
+        image: url(:/Images/res/red_round.png);
 }
 
 QCheckBox::indicator:enabled:unchecked {
-        image: url(:/Images/while_round.png);
+        image: url(:/Images/res/while_round.png);
 }
 QCheckBox::indicator:enabled:checked {
-        image: url(:/Images/green_round.png);
+        image: url(:/Images/res/green_round.png);
 }
 #注意：不可将注释夹入样式表语句中，否则设置失效。
     #指示器与名字之间的间隔值设置
